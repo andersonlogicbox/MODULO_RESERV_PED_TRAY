@@ -1,0 +1,10 @@
+# Logs e arquivos de teste internos
+*.log
+*.log.jsonl
+*.out
+fila/
+fila_desativada/
+ini_teste/
+clona_pedido.py
+mock_tray.py
+demo_guiado.py

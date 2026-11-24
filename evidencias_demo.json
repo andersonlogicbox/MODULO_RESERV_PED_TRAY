@@ -1,0 +1,180 @@
+{
+ "gerado_em": "2026-11-24T13:32:30",
+ "itens": [
+  [
+   119055,
+   "27176",
+   "BALAO LISO CHAMPAGNE 5",
+   43
+  ],
+  [
+   119217,
+   "27218",
+   "BALAO LISO ROSE QUARTZ 5",
+   31
+  ],
+  [
+   120028,
+   "27424",
+   "BALAO CROMADO ROSE GOLD 5",
+   59
+  ]
+ ],
+ "p1": {
+  "estoque": [
+   {
+    "cod": "27176",
+    "desc": "BALAO LISO CHAMPAGNE 5",
+    "real": 43.0,
+    "reservado": 0.0,
+    "disponivel": 43.0
+   },
+   {
+    "cod": "27218",
+    "desc": "BALAO LISO ROSE QUARTZ 5",
+    "real": 31.0,
+    "reservado": 0.0,
+    "disponivel": 31.0
+   },
+   {
+    "cod": "27424",
+    "desc": "BALAO CROMADO ROSE GOLD 5",
+    "real": 59.0,
+    "reservado": 0.0,
+    "disponivel": 59.0
+   }
+  ]
+ },
+ "p2": {
+  "pedido": [
+   42146,
+   2,
+   1
+  ],
+  "log": [
+   "24/11/26 13:32:31  - Pedido Tray ID: 4141",
+   "24/11/26 13:32:31  - Reserva nativa aplicada ao orcamento 42146 (STATUS_RESERVA=1, STATUS=2)",
+   "24/11/26 13:32:31  - RESERVA NATIVA - item reservado no orcamento 42146 | id_dadospro 119055 | cod 27176 | BALAO LISO CHAMPAGNE 5 | qtd do pedido 1",
+   "24/11/26 13:32:31  - SIMULACAO reenvio de estoque (NAO enviado a Tray) - o pedido possui reserva virtual: cod 27176 | estoque real 43 - soma reserva virtual (todos os pedidos reservados) 1 = estoque a reenviar 42",
+   "24/11/26 13:32:31  - RESERVA NATIVA - item reservado no orcamento 42146 | id_dadospro 119217 | cod 27218 | BALAO LISO ROSE QUARTZ 5 | qtd do pedido 1",
+   "24/11/26 13:32:31  - SIMULACAO reenvio de estoque (NAO enviado a Tray) - o pedido possui reserva virtual: cod 27218 | estoque real 31 - soma reserva virtual (todos os pedidos reservados) 1 = estoque a reenviar 30",
+   "24/11/26 13:32:31  - RESERVA NATIVA - item reservado no orcamento 42146 | id_dadospro 120028 | cod 27424 | BALAO CROMADO ROSE GOLD 5 | qtd do pedido 1",
+   "24/11/26 13:32:31  - SIMULACAO reenvio de estoque (NAO enviado a Tray) - o pedido possui reserva virtual: cod 27424 | estoque real 59 - soma reserva virtual (todos os pedidos reservados) 1 = estoque a reenviar 58",
+   "24/11/26 13:32:35  - sincronia reserva de estoque - varredura: idrepl 4000119055 | id_pro 27176 | cod 27176 | BALAO LISO CHAMPAGNE 5 | reserva em pedidos nao faturados: 0 -> 1 (estoque sera reenviado ao Tray)",
+   "24/11/26 13:32:35  - sincronia reserva de estoque - varredura: idrepl 4000119217 | id_pro 27218 | cod 27218 | BALAO LISO ROSE QUARTZ 5 | reserva em pedidos nao faturados: 0 -> 1 (estoque sera reenviado ao Tray)",
+   "24/11/26 13:32:35  - sincronia reserva de estoque - varredura: idrepl 4000120028 | id_pro 27424 | cod 27424 | BALAO CROMADO ROSE GOLD 5 | reserva em pedidos nao faturados: 0 -> 1 (estoque sera reenviado ao Tray)",
+   "24/11/26 13:32:36  - RESERVA NATIVA - id_pro 27176: estoque ERP 43 - reservado 1 = enviado 42",
+   "24/11/26 13:32:36  - sincronia reserva de estoque - id_pro 27176 | cod 27176 | BALAO LISO CHAMPAGNE 5 | estoque atual (filial 4): 43 | reserva em pedidos nao faturados: total 1 (Tray: 1) | enviado ao Tray: 42",
+   "24/11/26 13:32:37  - RESERVA NATIVA - id_pro 27218: estoque ERP 31 - reservado 1 = enviado 30",
+   "24/11/26 13:32:37  - sincronia reserva de estoque - id_pro 27218 | cod 27218 | BALAO LISO ROSE QUARTZ 5 | estoque atual (filial 4): 31 | reserva em pedidos nao faturados: total 1 (Tray: 1) | enviado ao Tray: 30",
+   "24/11/26 13:32:39  - RESERVA NATIVA - id_pro 27424: estoque ERP 59 - reservado 1 = enviado 58",
+   "24/11/26 13:32:39  - sincronia reserva de estoque - id_pro 27424 | cod 27424 | BALAO CROMADO ROSE GOLD 5 | estoque atual (filial 4): 59 | reserva em pedidos nao faturados: total 1 (Tray: 1) | enviado ao Tray: 58"
+  ],
+  "enviado": {
+   "7899675517639": {
+    "stock": 9,
+    "ts": "2026-11-24T11:30:23"
+   },
+   "27176": {
+    "stock": 42,
+    "ts": "2026-11-24T13:32:36"
+   },
+   "27218": {
+    "stock": 30,
+    "ts": "2026-11-24T13:32:38"
+   },
+   "27424": {
+    "stock": 58,
+    "ts": "2026-11-24T13:32:39"
+   }
+  }
+ },
+ "p21": {
+  "estoque": [
+   {
+    "cod": "27176",
+    "desc": "BALAO LISO CHAMPAGNE 5",
+    "real": 43.0,
+    "reservado": 1.0,
+    "disponivel": 42.0
+   },
+   {
+    "cod": "27218",
+    "desc": "BALAO LISO ROSE QUARTZ 5",
+    "real": 31.0,
+    "reservado": 1.0,
+    "disponivel": 30.0
+   },
+   {
+    "cod": "27424",
+    "desc": "BALAO CROMADO ROSE GOLD 5",
+    "real": 59.0,
+    "reservado": 1.0,
+    "disponivel": 58.0
+   }
+  ]
+ },
+ "p3": {
+  "pedido": [
+   42146,
+   2,
+   1
+  ],
+  "log": [
+   "24/11/26 13:32:43  - sincronia reserva de estoque - varredura: idrepl 4000119055 | id_pro 27176 | cod 27176 | BALAO LISO CHAMPAGNE 5 | reserva em pedidos nao faturados: 1 -> 0 (estoque sera reenviado ao Tray)",
+   "24/11/26 13:32:43  - sincronia reserva de estoque - varredura: idrepl 4000119217 | id_pro 27218 | cod 27218 | BALAO LISO ROSE QUARTZ 5 | reserva em pedidos nao faturados: 1 -> 0 (estoque sera reenviado ao Tray)",
+   "24/11/26 13:32:43  - sincronia reserva de estoque - varredura: idrepl 4000120028 | id_pro 27424 | cod 27424 | BALAO CROMADO ROSE GOLD 5 | reserva em pedidos nao faturados: 1 -> 0 (estoque sera reenviado ao Tray)",
+   "24/11/26 13:32:44  - sincronia reserva de estoque - id_pro 27176 | cod 27176 | BALAO LISO CHAMPAGNE 5 | estoque atual (filial 4): 42 | reserva em pedidos nao faturados: total 0 (Tray: 0) | enviado ao Tray: 42",
+   "24/11/26 13:32:46  - sincronia reserva de estoque - id_pro 27218 | cod 27218 | BALAO LISO ROSE QUARTZ 5 | estoque atual (filial 4): 30 | reserva em pedidos nao faturados: total 0 (Tray: 0) | enviado ao Tray: 30",
+   "24/11/26 13:32:47  - sincronia reserva de estoque - id_pro 27424 | cod 27424 | BALAO CROMADO ROSE GOLD 5 | estoque atual (filial 4): 58 | reserva em pedidos nao faturados: total 0 (Tray: 0) | enviado ao Tray: 58"
+  ],
+  "enviado": {
+   "7899675517639": {
+    "stock": 9,
+    "ts": "2026-11-24T11:30:23"
+   },
+   "27176": {
+    "stock": 42,
+    "ts": "2026-11-24T13:32:44"
+   },
+   "27218": {
+    "stock": 30,
+    "ts": "2026-11-24T13:32:46"
+   },
+   "27424": {
+    "stock": 58,
+    "ts": "2026-11-24T13:32:47"
+   }
+  }
+ },
+ "p4": {
+  "pedido": [
+   42146,
+   3,
+   0
+  ],
+  "log": [
+   "24/11/26 13:32:57  - sincronia reserva de estoque - id_pro 27176 | cod 27176 | BALAO LISO CHAMPAGNE 5 | estoque atual (filial 4): 43 | reserva em pedidos nao faturados: total 0 (Tray: 0) | enviado ao Tray: 43",
+   "24/11/26 13:32:59  - sincronia reserva de estoque - id_pro 27218 | cod 27218 | BALAO LISO ROSE QUARTZ 5 | estoque atual (filial 4): 31 | reserva em pedidos nao faturados: total 0 (Tray: 0) | enviado ao Tray: 31",
+   "24/11/26 13:33:00  - sincronia reserva de estoque - id_pro 27424 | cod 27424 | BALAO CROMADO ROSE GOLD 5 | estoque atual (filial 4): 59 | reserva em pedidos nao faturados: total 0 (Tray: 0) | enviado ao Tray: 59"
+  ],
+  "enviado": {
+   "7899675517639": {
+    "stock": 9,
+    "ts": "2026-11-24T11:30:23"
+   },
+   "27176": {
+    "stock": 43,
+    "ts": "2026-11-24T13:32:58"
+   },
+   "27218": {
+    "stock": 31,
+    "ts": "2026-11-24T13:32:59"
+   },
+   "27424": {
+    "stock": 59,
+    "ts": "2026-11-24T13:33:01"
+   }
+  }
+ }
+}
